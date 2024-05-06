@@ -145,7 +145,7 @@ class App {
     e.preventDefault();
 
     // Get data from form
-    const type = inputType;
+    const type = inputType.value;
     const distance = +inputDistance.value;
     const duration = +inputDuration.value;
     const { lat, lng } = this.#mapEvent.latlng;
