@@ -100,7 +100,6 @@ class App {
     const { latitude } = position.coords;
     const { longitude } = position.coords;
     const coords = [latitude, longitude];
-    // con_ole.log(`https://www.google.pt/maps/@${latitude},${longitude}`);
 
     this.#map = L.map('map').setView(coords, this.#mapZoomLevel);
 
